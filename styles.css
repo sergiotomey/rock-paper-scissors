@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    text-align: center;
+    background-color: lightseagreen;
+    padding: 20px;
+}
+
+h2{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.score-board{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    height: 30px;
+}
+
+.score-board input{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.names{
+    max-width: 30%;
+    margin: 0 auto;
+    display: flex;
+    justify-content:space-between;
+    gap: 30px;
+    padding: 10px;
+}
+
+.button-div{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    padding: 15px;
+    gap: 15px;
+}
+
+.button-div button{
+    font-weight: bold;
+    padding: 20px;
+}
+
+.play-button-div{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.play-button-div button{
+    padding: 10px;
+    font-weight: bolder;
+}
